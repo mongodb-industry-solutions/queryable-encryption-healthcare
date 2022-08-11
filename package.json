@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mongocrypt": "^1.1.2",
+    "mongodb": "^4.6.0-alpha.0",
+    "mongodb-client-encryption": "^2.2.0-alpha.0"
+  },
+  "name": "reader",
+  "version": "1.0.0",
+  "main": "insert_encrypted_document.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {},
+  "description": ""
+}
