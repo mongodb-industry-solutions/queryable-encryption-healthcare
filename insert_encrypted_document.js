@@ -121,7 +121,7 @@ async function run() {
     // end-insert
     // start-find
     console.log("Finding a document with regular (non-encrypted) client.");
-    console.log(await unencryptedColl.findOne({ firstName: /Jon/ }));
+    console.log(await unencryptedColl.findOne({ firstName: /Joh/ }));
     console.log(
       "Finding a document with encrypted client, searching on an encrypted field"
     );
