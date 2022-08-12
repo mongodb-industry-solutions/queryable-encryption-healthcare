@@ -4,7 +4,7 @@ const { ClientEncryption } = require("mongodb-client-encryption");
 const keyVaultDatabase = "encryption";
 const keyVaultCollection = "__keyVault";
 const keyVaultNamespace = `${keyVaultDatabase}.${keyVaultCollection}`;
-const secretDB = "healthRecords";
+const secretDB = "medRecords";
 const secretCollection = "patients";
 
 // start-kmsproviders
