@@ -29,7 +29,7 @@ async function run() {
   const dek5 = await keyVaultClient.findOne({ keyAltNames: "dataKey5" });
   const dek6 = await keyVaultClient.findOne({ keyAltNames: "dataKey6" });
 
-  const secretDB = "healthRecords";
+  const secretDB = "medRecords";
   const secretCollection = "patients";
 
   const encryptedFieldsMap = {
