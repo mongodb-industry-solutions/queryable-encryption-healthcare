@@ -110,7 +110,7 @@ async function run() {
         state: "SD"
       },
       patientRecord: {
-        ssn: "70906649",
+        ssn: "000000649",
         billing: {
           type: "Visa",
           number: "4111111111111111",
